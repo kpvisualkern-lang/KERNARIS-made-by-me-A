@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kernaris | made by me.</title>
+    
+
+    <style>
+
+    html {
+
+    background: fixed;
+    background-image: url(patter_white.png);
+    background-size: cover;
+
+
+
+
+    }
+
+    .bes {
+
+    display: none;
+     }
+
+    .glava{ 
+
+    background-color: black;
+    width: 100%;
+    height: 10rem;
+    margin: auto;
+    display: flex;
+    box-shadow: 10px 10px 25px black;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+
+}
+
+.glava img {
+
+        height: 4em;
+    }
+
+    .navi {
+
+        background-color: white;
+        width: 100%;
+        height: 50px;
+        display: flex;
+        box-shadow: 10px 10px 25px black;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        color: black;
+        gap: 5rem;
+        padding: 0%;
+        
+
+    }
+
+
+    .navi-items {
+
+        text-decoration: none;
+        color: black;
+        background-color: rgb(255, 255, 255);
+        padding: 0px 40px;
+        font-size: 15px;
+        line-height: 0.5;
+        box-shadow: 5px 5px 20px rgb(185, 185, 185);
+
+    }
+
+    .navi-items:hover {
+
+        background-color: black;
+        color: white;
+        box-shadow: 10px 10px 35px black;
+        transition: 0.5s;
+        padding: 0px 45px;
+
+    }
+
+    .navi-clicked {
+
+        box-shadow: 10px 10px 40px black;
+
+
+
+    }
+
+
+    .footer {
+
+        background-color: rgb(255, 255, 255);
+        width: 100%;
+        height: 5rem;
+        margin: auto;
+        display: flex;
+        box-shadow: 10px 10px 25px black;
+        align-items: center;
+        justify-content: center;
+        color: rgb(0, 0, 0);
+        
+        display: flex;
+        gap: 1rem;
+
+    }
+
+    .footer-copy {
+
+        text-align: center;
+        width: 100%;
+        background-color: black;
+        height: 4rem;
+        color: white;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        margin-top: 30rem;
+
+
+    }
+
+    .ikone {
+
+        display: block;
+        
+        gap: 5rem;
+
+    }
+
+    .mobilenav{
+
+        display: none;
+
+    }
+
+    .naslov-left {
+
+        
+        text-align: start;
+        color: rgb(0, 0, 0);
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 3rem;
+        margin-left: 2rem;
+
+    }
+
+    .naslov-right {
+
+        
+        text-align: end;
+        color: rgb(0, 0, 0);
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 3rem;
+        margin-right: 2rem;
+
+    }
+
+    .besedilo-left {
+
+        
+        text-align: start;
+        color: rgb(0, 0, 0);
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 2rem;
+        margin-left: 2rem;
+        margin-top: 2rem;
+        margin-bottom: 10rem;
+        width: 50%;
+
+    }
+
+    .besedilo-right {
+
+        
+        
+        color: rgb(0, 0, 0);
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 2rem;
+        margin-bottom: 10rem;
+        margin-right: 2rem;
+        text-align: end;
+        width: auto;
+        justify-content: right;
+        align-items: right;
+        max-height: 50vh;      
+        overflow: hidden;   
+        max-width: 50%;
+        margin-left: auto;
+        
+    }
+
+    .con {
+
+        position: relative;
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        display: block;
+    }
+     @media (max-width: 768px) { 
+
+        .glava {
+
+            flex-direction: row;
+            height: auto;
+            gap: 1rem;
+            padding: 0rem;
+            width: 100%;
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+
+        }
+
+        .glava img {
+
+            height: 2.5rem;
+            margin-top: 2rem;
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+            margin-bottom: 2rem;
+
+        }
+
+        .glava h1 {
+
+            font-size: 1.5rem;
+            margin-top: 1rem;
+
+        }
+
+        .navi {
+
+            flex-direction: column;
+            height: auto;
+            gap: 1rem;
+            padding: 0rem;
+            width: 100%;
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+            display: none;
+
+        }
+
+        .mobilenav {
+
+            display: flex;
+            background-color: white;
+            width: 100%;
+            height: 50px;
+            box-shadow: 10px 10px 25px black;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+            color: black;
+            gap: 5rem;
+            padding: 0%;
+            margin-bottom: 3rem;
+
+            
+
+        }
+
+        .navi-items {
+
+            padding: 5px 10px;
+
+        }
+
+        .stvar {
+
+            
+            padding: 15px 67px;
+            
+
+        }
+
+        .besdes {
+
+            display: none;
+
+        }
+
+        .bes {
+
+            display:none;
+
+        }
+
+    .naslov-left {
+
+    color: black;
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 0px 0px;
+    margin-left: 0;
+    margin-top: 1rem;
+
+        }
+
+    .naslov-right {
+
+    color: black;
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 0px 0px;
+    margin-left: 0;
+    margin-top: 1rem;
+    width: 100%;
+       }
+
+    .besedilo-left {
+         color: black;
+         padding: 0%;
+         margin-left: 0;
+         width: 100%;
+         text-align: center;
+         font-size: 1.3rem;
+       }
+
+    .besedilo-right {
+         color: black;
+         padding: 0%;
+         margin-left: 0;
+         max-width: 100%;
+         text-align: center;
+         font-size: 1.3rem;
+        margin-right: 0;
+
+        }
+
+    .con {
+        
+        margin: 0%;
+     }
+
+     .footer-copy {
+
+        text-align: center;
+        width: 100%;
+        background-color: black;
+        height: 4rem;
+        color: white;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        margin-top: 30rem;
+
+     }
+    }
+</style>
+</head>
+
+<header> <div class="glava">
+   
+    <img src="bel_vse_png.png" alt="">
+<h1 style="color: white; font-family: Arial, Helvetica, sans-serif;" class="bes">|  &nbsp DAVID KERN</h1>
+<h1 style="color: white; font-family: Arial, Helvetica, sans-serif;" class="besdes">|  &nbsp &nbsp &nbsp &nbsp  DAVID KERN</h1>
+</div>
+
+<div class="navi">
+
+<a href="index.html" style="text-decoration: none;" class="navi-items "><h3>DOMOV</h3></a>
+<a href="pred.html" style="text-decoration: none;" class="navi-items navi-clicked"><h3>PREDSTAVITEV</h3></a>
+<a href="dela.html" style="text-decoration: none;" class="navi-items"><h3>DELA / PROJEKTI</h3></a>
+<a href="social.html" style="text-decoration: none;" class="navi-items"><h3>SOCIALNA OMREŽJA</h3></a>
+
+</div>
+
+<div class="mobilenav">
+
+    <a href="meni.html"><h3 class="stvar">MENU</h3></a>
+
+
+
+</div>
+
+</header>
+
+<body>
+    <main>
+<div class="con">    
+        <div class="naslov-left">
+        <h1 style="font-family: serif;">O MENI</h1>
+        </div>
+
+ <div class="besedilo-left">
+
+ <p>Beyond the last breath of Earth’s atmosphere, silence becomes infinite.
+Stars burn without sound, ancient and patient, scattered across a darkness that has no end. Time stretches here, bending around gravity and light, while galaxies drift like distant memories. In this vast expanse, every heartbeat feels smaller—and more meaningful.</p>
+
+</div>
+
+
+
+        <div class="naslov-right">
+        <h1 style="font-family: serif;">KERNARIS</h1>
+        </div>
+
+<div class="besedilo-right">
+
+    Beyond the last breath of Earth’s atmosphere, silence becomes infinite.
+Stars burn without sound, ancient and patient, scattered across a darkness that has no end. Time stretches here, bending around gravity and light, while galaxies drift like distant memories. In this vast expanse, every heartbeat feels smaller—and more meaningful.
+
+
+</div>
+
+        <div class="naslov-left">
+        <h1 style="font-family: serif;">S ČIM SE UKVARJAM?</h1>
+        </div>
+
+ <div class="besedilo-left">
+
+ <p>Beyond the last breath of Earth’s atmosphere, silence becomes infinite.
+Stars burn without sound, ancient and patient, scattered across a darkness that has no end. Time stretches here, bending around gravity and light, while galaxies drift like distant memories. In this vast expanse, every heartbeat feels smaller—and more meaningful.</p>
+
+</div>
+
+
+ <div class="naslov-right">
+        <h1 style="font-family: serif;">KAKO NAPREJ?</h1>
+        </div>
+
+<div class="besedilo-right">
+
+    Beyond the last breath of Earth’s atmosphere, silence becomes infinite.
+Stars burn without sound, ancient and patient, scattered across a darkness that has no end. Time stretches here, bending around gravity and light, while galaxies drift like distant memories. In this vast expanse, every heartbeat feels smaller—and more meaningful.
+
+
+</div>
+
+</div>    
+    </main>
+</body>
+
+
+<footer>
+
+<div class="footer-copy">
+
+
+<h3>© 2025 KERNARIS | made by me.</h3>
+
+</div>
+
+
+<div class="footer">
+
+
+<div class="ikone">
+<a href=""><img src="instagram (2).png" alt="" width="50rem"></a>
+<a href=""><img src="facebook-app-symbol (2).png" alt="" width="50rem"></a>
+<a href=""><img src="youtube (3).png" alt="" width="50rem"></a>
+
+</div>
+
+</div>
+
+
+
+</footer>
+
+
+
+
+ 
+
+
+</html>

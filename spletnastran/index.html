@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kernaris | made by me.</title>
+    
+
+    <style>
+
+    html {
+
+    background: fixed;
+    background-image: url(patter_white.png);
+    background-size: cover;
+
+
+
+
+    }
+
+    .glava{ 
+
+    background-color: black;
+    width: 100%;
+    height: 10rem;
+    margin: auto;
+    display: flex;
+    box-shadow: 10px 10px 25px black;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+
+}
+
+
+.tk {
+
+font-size: 5rem;
+
+
+
+}
+
+.bes {
+
+    display: none;
+
+}
+
+
+.mobilenav{
+
+
+    display: none;
+}
+    .glava img {
+
+        height: 4em;
+    }
+
+    .navi {
+
+        background-color: white;
+        width: 100%;
+        height: 50px;
+        display: flex;
+        box-shadow: 10px 10px 25px black;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        color: black;
+        gap: 5rem;
+        padding: 0%;
+        
+
+    }
+
+
+    .navi-items {
+
+        text-decoration: none;
+        color: black;
+        background-color: rgb(255, 255, 255);
+        padding: 0px 40px;
+        font-size: 15px;
+        line-height: 0.5;
+        box-shadow: 5px 5px 20px rgb(185, 185, 185);
+
+    }
+
+    .navi-items:hover {
+
+        background-color: black;
+        color: white;
+        box-shadow: 10px 10px 35px black;
+        transition: 0.5s;
+        padding: 0px 45px;
+
+    }
+
+    .navi-home {
+
+        box-shadow: 10px 10px 40px black;
+
+
+
+    }
+
+
+    .footer {
+
+        background-color: rgb(255, 255, 255);
+        width: 100%;
+        height: 5rem;
+        margin: auto;
+        display: flex;
+        box-shadow: 10px 10px 25px black;
+        align-items: center;
+        justify-content: center;
+        color: rgb(0, 0, 0);
+        
+        display: flex;
+        gap: 1rem;
+
+    }
+
+    .footer-copy {
+
+        text-align: center;
+        width: 100%;
+        background-color: black;
+        height: 4rem;
+        color: white;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        margin-top: 30rem;
+
+
+    }
+
+    .ikone {
+
+        display: block;
+        
+        gap: 5rem;
+
+    }
+
+    body {
+
+        
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+
+
+
+    }
+
+    .main-buton {
+
+        background-color: rgb(0, 0, 0);
+        width: 20%;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+        font-size: 30px;
+        color: white;
+        cursor: pointer;
+
+    }
+
+    .main-buton:hover {
+
+        background-color: rgb(0, 0, 0);
+        box-shadow: 5px 5px 15px rgba(0,0,0,0.8);
+        font-size: 35px;
+        transition: all 0.4s;
+        padding: 20px 30px;
+        text-shadow: 10px 10px 15px white;
+
+    }
+
+    .glava-slika {
+
+        height: 10rem;
+    }
+
+    .novo {
+
+        width: 100%;
+        background-color: rgb(74, 170, 29);
+        height: auto;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 4px 0px;
+        font-size: 25px;
+        background-image: url(5160075_2713766.png);
+        background-size: cover;
+        box-shadow: 10px 10px 25px black;
+        font-family: Arial, Helvetica, sans-serif;
+        text-shadow: 10px 10px 50px white;
+        color: rgb(255, 0, 0);
+        
+    }
+
+    
+
+    @media (max-width: 768px) {
+
+        .tk {
+
+            font-size: 2.5rem;
+            flex-direction: column;
+            text-align: center;
+            flex-wrap: wrap;
+            flex: auto;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-top: 6rem;
+
+        }
+
+        .main-buton {
+
+            width: 50%;
+
+        }
+
+           .glava {
+
+            flex-direction: row;
+            height: auto;
+            gap: 1rem;
+            padding: 0rem;
+            width: 100%;
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+
+        }
+
+        .glava img {
+
+            height: 2.5rem;
+            margin-top: 2rem;
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+            margin-bottom: 2rem;
+
+        }
+
+.glava h1 {
+
+            font-size: 1.5rem;
+            margin-top: 1rem;
+
+        }
+
+        .navi {
+
+            flex-direction: column;
+            height: auto;
+            gap: 1rem;
+            padding: 0rem;
+            width: 100%;
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+            display: none;
+
+        }
+
+        .navi-items {
+
+            padding: 5px 10px;
+
+        }
+
+        .footer {
+
+            flex-direction: column;
+            height: 5rem;
+            gap: 2rem;
+            padding: 0rem;
+            width: 100%;
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+            margin-bottom: 2rem;
+
+        }
+
+        .ikone {
+
+            gap: 3rem;
+
+        }
+
+        .footer-copy {
+
+            flex-direction: column;
+            height: auto;
+            gap: 0rem;
+            padding: 0rem;
+            width: 100%;
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+            margin-top: 20rem;
+
+        }
+
+        .mobilenav {
+
+            display: flex;
+            background-color: white;
+            width: 100%;
+            height: 50px;
+            box-shadow: 10px 10px 25px black;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+            color: black;
+            gap: 5rem;
+            padding: 0%;
+            
+
+        }
+
+        .stvar {
+
+            
+            padding: 15px 67px;
+            
+
+        }
+
+        html {
+
+            background-image: url(patter_white.png);
+            background-size:cover;
+            background-repeat: repeat;
+            background-position:center;
+            height: 100dvh;
+            width: 100dvw;
+
+        }
+
+        
+        .main {
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: auto;
+            gap: 1rem;
+            padding: 1px 0px;
+
+        }
+
+        .novo {
+
+        width: 100%;
+        background-color: rgb(74, 170, 29);
+        height: auto;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 4px 0px;
+        font-size: 1rem;
+        background-image: url(5160075_2713766.png);
+        background-size: cover;
+        box-shadow: 10px 10px 25px black;
+        font-family: Arial, Helvetica, sans-serif;
+        text-shadow: 10px 10px 50px white;
+        color: rgb(255, 0, 0);
+        
+    }
+
+
+        .besdes {
+
+            display: none;
+
+        }
+
+        .bes {
+
+            display:none;
+
+        }
+    }
+</style>
+</head>
+
+<header> <div class="glava slika">
+   
+    <img src="bel_vse_png.png" alt="" class="slika">
+    
+
+<h1 style="color: white; font-family: Arial, Helvetica, sans-serif;" class="bes">|  &nbsp DAVID KERN</h1>
+<h1 style="color: white; font-family: Arial, Helvetica, sans-serif;" class="besdes">|  &nbsp &nbsp &nbsp &nbsp  DAVID KERN</h1>
+</div>
+
+<div class="novo">
+
+<h3>DOBRODOŠLI NA MOJI NOVI SPLETNI STRANI! </h3>
+
+
+</div>
+
+<div class="navi">
+
+ 
+
+<a href="index.html" style="text-decoration: none;" class="navi-items navi-home"><h3>DOMOV</h3></a>
+<a href="pred.html" style="text-decoration: none;" class="navi-items"><h3>PREDSTAVITEV</h3></a>
+<a href="dela.html" style="text-decoration: none;" class="navi-items"><h3>DELA / PROJEKTI</h3></a>
+<a href="social.html" style="text-decoration: none;" class="navi-items"><h3>SOCIALNA OMREŽJA</h3></a>
+
+</div>
+
+<div class="mobilenav">
+
+    <a href="meni.html"><h3 class="stvar">MENU</h3></a>
+
+
+
+</div>
+
+</header>
+
+<body>
+    <main>
+
+<h3 class="tk"> Stran, kjer boste izvedeli vse<br><u>O KERNARISU</u></h3>
+
+<center>
+    <a href="meni.html" style="text-decoration: none;">
+<h3 class="main-buton">VSTOPI</h3>
+</a>
+</center>
+
+
+    </main>
+</body>
+
+
+<footer>
+
+<div class="footer-copy">
+
+
+<h3>© 2025 KERNARIS | made by me.</h3>
+
+</div>
+
+
+<div class="footer">
+
+
+<div class="ikone">
+<a href=""><img src="instagram (2).png" alt="" width="50rem"></a>
+<a href=""><img src="facebook-app-symbol (2).png" alt="" width="50rem"></a>
+<a href=""><img src="youtube (3).png" alt="" width="50rem"></a>
+
+</div>
+
+</div>
+
+
+
+</footer>
+
+
+
+
+ 
+
+
+</html>
